@@ -29,12 +29,4 @@ Connect to the virtual machine with VMConnect
 VMConnect.exe
 ```
 
-## Connect to Hypervisor instance with Python
-
-Execute python connection file
-
-```powershell
-python hyperv-connection.py
-```
-
 
