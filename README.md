@@ -5,10 +5,10 @@ An example Hypervisor creation with powershell and connection with Python
 
 ## Create Hypervisor instance with Powershell
 
-Get the name of the virtual switch that you want the VM to use
+Create a private virtual switch
 
 ```powershell
-Get-VMSwitch  * | Format-Table Name
+New-VMSwitch -name PrivateSwitch -SwitchType Private
 ```
 
 Create instance swith selected virtual switch
