@@ -1,5 +1,5 @@
 # Hypervisor Example
-An example HyperV creation connection with Python
+An example Hypervisor creation with powershell and connection with Python
 
 ## Create Hypervisor instance with Powershell
 
