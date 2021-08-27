@@ -9,16 +9,18 @@ conn = wmi.WMI(data.get("address", user=data.get("userid"), password=data.get("p
 def properties():
     wmi.WMI().Win32_Process.methods.keys()
 
+                                                                              
 #Print all methods
 def methods():
     wmi.WMI().Win32_Process.properties.keys()
 
+                                                                              
 #List processes
-
 def processList():
     for process in conn.Win32_Process():
         print("ID: {0}\nHandleCount: {1}\nProcessName: {2}\n".format(process.ProcessId, process.HandleCount, process.Name))
 
+                                                                              
 #Start target service
 def startService():
     for s in conn.Win32_Service(StartMode="Auto", State="Stopped"):
@@ -36,4 +38,3 @@ def usersGroups():
         print(" [+]", user.Caption)
 
 
-usersGroups()
