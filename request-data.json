@@ -1,0 +1,6 @@
+{
+    "address": "hypervisor.mycompany.com",
+    "name": "Sample Hypervisor",
+    "password": "thepassword",
+    "userid": "root"
+ }
