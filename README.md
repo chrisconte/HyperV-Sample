@@ -1,6 +1,8 @@
 # Hypervisor Example
 An example Hypervisor creation with powershell and connection with Python
 
+
+
 ## Create Hypervisor instance with Powershell
 
 Get the name of the virtual switch that you want the VM to use
@@ -26,3 +28,13 @@ Connect to the virtual machine with VMConnect
 ```powershell
 VMConnect.exe
 ```
+
+## Connect to Hypervisor instance with Python
+
+Execute python connection file
+
+```powershell
+python hyperv-connection.py
+```
+
+
