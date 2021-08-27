@@ -5,6 +5,6 @@ An example HyperV creation connection with Python
 
 Get the name of the virtual switch that you want the VM to use
 
-'''powershell
+```powershell
 Get-VMSwitch  * | Format-Table Name
-'''
+```
